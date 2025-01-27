@@ -16,12 +16,16 @@ O objetivo aqui é deixar registrado algumas funcionalidades dessa biblioteca, e
 
 ### Primeiro repositório do curso matemática para aprendizado de máquina e ciência de dados
 
+## Instalando o NumPy via terminal
+Você pode optar por instalar tanto via terminal do seu IDE nesse caso estou usando o Visual Studio Code, quanto o terminal do seu computador, meu caso CMD windows.
+
 >### VS Code Terminal
 ![Untitled](https://github.com/user-attachments/assets/fb5ab264-eda7-441b-b83d-3e8ce7e59dc5)
 
 >### CMD Terminal
 ![CMD](https://github.com/user-attachments/assets/6ea55671-d803-41c7-9401-f0aacce0bdf9)
 
+[Voltar ao sumário](#sumário)
 
 ## Noções básicas de NumPy
 NumPy é o principal pacote para computação científica em Python. Ele executa uma ampla variedade de operações matemáticas avançadas com alta eficiência. Nesta guia prática, vamos aprender várias funções importantes que irá ajudar em tarefas futuras, como criar arrays, fatiar, indexar, remodelar e empilhar.
@@ -35,11 +39,15 @@ Aqui o "as" é usado pra encurtar o nome da biblioteca, como se fosse um apelido
 ```red
 import numpy as np
 ```
+[Voltar ao sumário](#sumário)
+
 ## Vantagens de usar matrizes NumPy
 Os arrays são uma das estruturas de dados principais da biblioteca NumPy, essenciais para organizarmos os dados. Podemos pensar neles como uma grade de valores, todos do mesmo tipo. São semelhantes as listas do Python, você pode armazenar diferentes tipos de dados. No entanto, as listas Python são limitadas em funções e ocupam mais espaço e tempo para processar do que os arrays NumPy. 
 Os array são muito mais rápido e compacto do que as listas Python. A biblioteca oferece muitas funções embutidas que tornam a computação muito mais fácil com apenas algumas linhas de código, uma grande vantagem ao realizar operações matemáticas em grandes conjuntos de dados.
 
 _O objeto array no NumPy é chamado de ndarray, que significa ‘array n-dimensional’ (1-D)_
+
+[Voltar ao sumário](#sumário)
 
 ## Como criar arrays NumPy
 
@@ -156,6 +164,8 @@ print(array_random)
 
 ````
 `[0.12135531 0.68194308 0.66779118 0.65169842 0.1697461 ]`
+
+[Voltar ao sumário](#sumário)
 
 ## Arrays Multidimensionais
 
